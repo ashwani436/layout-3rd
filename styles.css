@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+  /* container css */
+  .container {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 100px;
+  }
+/* Top Navbar  */
+
+.topnav
+{
+  
+  overflow: hidden;
+  background-color: #333;
+}
+
+#sidea{
+    width:100%;
+    margin-left:90px;
+}
+.topnav a{
+    
+  float: left;
+  display: block;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  opacity: 50%;
+}
+.topnav a:hover {
+    background-color: rgb(189, 188, 152);
+    color: rgb(77, 32, 32);
+  }
+
+  /* navbar end */
+
+.left_div{
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+#image
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.para1{
+  margin-top: 30px;
+  margin-left: 0px;
+  font-size: 21px;
+ 
+}
+
+/* right div css */
+.right_div {
+  margin-top: 10px;
+    padding: 2px;
+    font-size: 14px;
+  }
+
+.upper{
+    display: inline-block;
+    background-color: #F5F5F5;
+    border: 1px solid #8080804d;
+    height: 113px;
+    width: 400px;
+  }
+  #blog{
+    margin: 20px 20px 7px;
+    }
+    #search{
+    width: 89%;
+    clip: rect(1px,383px,51px,3px);
+    margin-left: 16px;
+    }
+
+    .middle{
+        margin-top: 19px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F5F5F5;
+        border: 1px solid #8080804d;
+        height: 165px;
+        width: 400px;
+      }
+      #category {
+          display: inline-block;
+      font-size: 20px;
+      margin: 27px 20px 20px 20px;
+      }
+      #left{
+        width: 50%;
+        float: left;
+      margin-left: 20px;
+      margin-top: 10px;
+      color: blue;
+
+      }
+      #right{
+       display: inline-block;
+       margin-top: 10px;
+       color: blue;
+        }
+
+        .lower{
+          display: inline-block;
+          margin-top: 20px;
+  
+          background-color: #F5F5F5;
+          height: 175px;
+          border: 1px solid #8080804d;
+          width: 400px;
+          text-align: 10px;
+        
+        }
+        #side{
+        font-size: 20px;
+        margin: 27px 20px 20px 20px;
+        }
+        
+        #para{
+        margin-top: -10px;
+        font-size: 18px;
+        font-family: sans-serif;
+        margin-left: 20px;
+        }
+ /* right div Css end */
+  #title{
+    margin-top: 50px;
+    font-size: 34px;
+    font-family: sans-serif;
+    }
+    #test{
+    margin-top: -20px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-family: sans-serif;
+    }
+    #upper_border{
+    border-bottom: 1px solid #d2d7da;
+    width: 100%;
+    bottom: auto;
+  
+    }
+    #lower_border{
+    border-bottom: 1px solid #d2d7da;
+    width: 100%;
+    bottom: auto;
+    }
+    
+    #lowest_border{
+        margin-top: 10px;
+        border-bottom: 1px solid gray;
+        }
+        #foot{
+        margin-top: 50px;
+        }
